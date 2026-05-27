@@ -161,7 +161,7 @@ class CanavarLGSSadeCrossApp(App):
         yks_kutu.bind(pos=self._update_rect_yks, size=self._update_rect_yks)
         
         self.lbl_yks_sayac = Label(text="YKS Sayaç...", color=get_color_from_hex("#155724"), font_size="13sp", bold=True, halign="center")
-        yks_kutu.add_widget(yks_kutu)
+        yks_kutu.add_widget(self.lbl_yks_sayac)
         
         sayac_paneli.add_widget(lgs_kutu)
         sayac_paneli.add_widget(yks_kutu)
